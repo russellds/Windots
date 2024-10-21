@@ -25,7 +25,7 @@ $symlinks = @{
 # Winget & choco dependencies
 $wingetDeps = @(
     "chocolatey.chocolatey"
-    "eza-community.eza"
+    "eza-community.eza" # eza is a modern, maintained replacement for the venerable file-listing command-line program ls that ships with Unix and Linux operating systems, giving it more features and better defaults.
     "ezwinports.make"
     "fastfetch-cli.fastfetch"
     "gerardog.gsudo"
@@ -37,21 +37,31 @@ $wingetDeps = @(
     "neovim.neovim"
     "openjs.nodejs"
     "starship.starship"
+    # "AltSnap.AltSnap"
+    # "sharkdp.bat"
+    # "sharkdp.fd"
+    # "junegunn.fzf"
+    # "BurntSushi.ripgrep.MSVC"
+    # "JesseDuffield.lazygit"
+    # "DEVCOM.JetBrainsMonoNerdFont"
+    # "wez.wezterm"
+    # "zig.zig"
+    # "ajeetdsouza.zoxide"
 )
 $chocoDeps = @(
-    "altsnap"
-    "bat"
-    "fd"
-    "fzf"
-    "gawk"
+    "altsnap" # It allows you to move and resize windows by using the Alt key and clicking wherever on the window instead of relying on very precise clicking.
+    "bat" # bat supports syntax highlighting for a large number of programming and markup languages
+    "fd" # fd is a program to find entries in your filesystem
+    "fzf" # fzf is a general-purpose command-line fuzzy finder
+    "gawk" # The (g)awk utility interprets a special-purpose programming language that makes it possible to handle simple data-reformatting jobs with just a few lines of code.
     "lazygit"
-    "mingw"
+    "mingw" # A native Windows port of the GNU Compiler Collection (GCC)
     "nerd-fonts-jetbrainsmono"
-    "ripgrep"
+    "ripgrep" # ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern.
     "sqlite"
-    "wezterm"
-    "zig"
-    "zoxide"
+    "wezterm" # WezTerm is a powerful cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust
+    "zig" # Zig is a general-purpose programming language and toolchain for maintaining robust, optimal and reusable software.
+    "zoxide" # zoxide is a smarter cd command, inspired by z and autojump.
 )
 
 # PS Modules
